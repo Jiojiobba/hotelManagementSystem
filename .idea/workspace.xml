@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4978905-7b4a-48f0-96d4-918d5e2039ba" name="Default" comment="" />
+    <list default="true" id="e4978905-7b4a-48f0-96d4-918d5e2039ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,7 +30,7 @@
     <option name="x" value="-18" />
     <option name="y" value="10" />
     <option name="width" value="1123" />
-    <option name="height" value="915" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,15 +81,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541422562644</updated>
-      <workItem from="1541422581014" duration="1189000" />
+      <workItem from="1541422581014" duration="1746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1189000" />
+    <option name="totallyTimeSpent" value="1746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="8" width="898" height="732" extended-state="0" />
+    <frame x="-14" y="8" width="898" height="675" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970964" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -96,7 +98,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.31153184" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.639313" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
