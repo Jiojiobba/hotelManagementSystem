@@ -7,51 +7,79 @@
       maximum-scale=1">
     <title>小型宾馆管理系统</title>
     <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_829427_dh83jvzcppe.css">
 </head>
 
 <body class="layui-layout-body">
 
 <!-- 页面区域 -->
+<div class="layui-layout layui-layout-admin ">
 
+<!--左侧菜单栏-->
+<ul class="layui-nav layui-nav-tree  layui-nav-side layui-my-menu " lay-filter="demo" >
+    <li class="layui-my-logo">宾馆管理系统</li>
 
-<div class="layui-layout layui-layout-admin">
-<ul class="layui-nav layui-nav-tree layui-nav-side layui-inline"
-    lay-filter="demo">
-
-    <li class="layui-nav-item layui-nav-itemed" >
-        <a href="">客房类型管理</a>
-        <dl class="layui-nav-child">
-            <dd><a href="javascript:;">类型管理</a></dd>
-            <dd><a href="javascript:;">客房管理</a></dd>
+    <li class="layui-nav-item layui-nav-myli" >
+        <a href="javascript:;"><use class="icon-typeMng"></use>客房类型管理</a>
+        <dl id = ""  class="layui-nav-child abc">
+            <dd class="menu-dd"><a id = "roomTypeManage" class="tab-active" href="./roomTypeManage.html" target="mainiframe" >类型管理</a></dd>
+            <dd class="menu-dd"><a id = "roomManage"  class="tab-active" href="./roomManage.html" target="mainiframe" >客房管理</a></dd>
         </dl>
     </li>
-    <li class="layui-nav-item">
-        <a href="javascript:;">客户管理</a>
+
+    <li class="layui-nav-item layui-nav-myli">
+        <a id = "" href="javascript:;"><use class="icon-userMng"></use>客户管理</a>
         <dl class="layui-nav-child">
-            <dd><a href="javascript:;">客户预订</a></dd>
-            <dd><a href="javascript:;">客户查询</a></dd>
-            <dd><a href="javascript:;">客户入住</a></dd>
+            <dd class="menu-dd"><a id = "userBook" class="tab-active"  href="./userBook.html" target="mainiframe" >客户预订</a></dd>
+            <dd class="menu-dd"><a id = "userRearch" class="tab-active"  href="./userRearch.html" target="mainiframe" >客户查询</a></dd>
+            <dd class="menu-dd"><a id = "userCheckin" class="tab-active"  href="./userCheckin.html" target="mainiframe" >客户入住</a></dd>
         </dl>
     </li>
-    <li class="layui-nav-item">
-        <a href="javascript:;">收费管理</a>
+
+    <li class="layui-nav-item layui-nav-myli">
+        <a id = "" href="javascript:;"><use class="icon-oderMng"></use>收费管理</a>
         <dl class="layui-nav-child">
-            <dd><a href="javascript:;">订单查询</a></dd>
-            <dd><a href="javascript:;">收费结算</a></dd>
+            <dd class="menu-dd"><a id = "oderRearch" class="tab-active"  href="./oderRearch.html" target="mainiframe" >订单查询</a></dd>
+            <dd class="menu-dd"><a id = "chargeSettlement" class="tab-active"  href="./chargeSettlement.html" target="mainiframe" >收费结算</a></dd>
         </dl>
     </li>
+
+<!--菜单下侧：退出系统，修改密码-->
+    <ul class="nav-footer">
+        <li style="text-align: left; padding-left: 30px;">管理员:<span id="user"></span></li>
+        <div class="menu-footer-two">
+        <li id="resetpwd"><a href="javascript:;"><use class="editPwd"></use>&nbsp;&nbsp;修改密码</a></li>
+        <li id="logout"><a href="javascript:;"><use class="logOut"></use>&nbsp;&nbsp;退出系统</a></li>
+        </div>
+    </ul>
 </ul>
 
 
 
-
-
 </div>
-<script  type="text/javascript"  src="layui/layui.js"></script>
+
+
+<!--右侧页面内容-->
+<div class="" style="width: 100%;">
+    <iframe class="" style="padding-left:200px;width: 100%;height: 100vh;"
+            name="mainiframe" src="./roomTypeManage.html"
+            id="mainiframe" frameborder="0" scrolling="no" onload="resizeFrameHeight()"
+    ></iframe>
+</div>
+
+
+
+
+
+<script type="text/javascript"  src="layui/layui.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/template-web.js"></script>
+<!--<script type="text/javascript" src="js/template-web.js"></script>-->
 <script type="text/javascript" src="layui/layui.all.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+
+
 </body>
 </html>
