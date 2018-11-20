@@ -3,8 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>客房类型管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
+    <link rel="stylesheet" href="css/roomTypeManage.css">
+    <link rel="stylesheet" href="css/public.css">
 </head>
-<body>
-<div>客房类型管理</div>
+<body style="overflow: hidden !important;">
+
+<div style="margin-top:30px; margin-left: 50px;">
+     <div class="add-box">
+         <div class="input-out">类型名称：<input id="typeName_add_input" class="input-in"> </div>
+         <div class="input-out">类型价格：<input id="typePrice_input" class="input-in"></div>
+         <button id="add_button" class="add-button layui-btn">添加</button>
+     </div>
+     <div class="delete-box">
+         <div class="input-out">类型选择：<select class="input-in"></select> </div>
+         <button class="layui-btn">删除</button>
+     </div>
+     <div class="edit-box">
+         <div class="input-out">类型名称：<input id="typeName_edit_input" class="input-in"> </div>
+         <div class="input-out">类型价格：<input id="typePrice_edit_input" class="input-in"></div>
+         <button class="layui-btn">修改</button>
+     </div>
+    <!--表格-->
+    <div class="table-content">
+
+    </div>
+
+</div>
+
 </body>
 </html>

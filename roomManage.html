@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>客房管理+查询</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      maximum-scale=1">
+    <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
+    <link rel="stylesheet" href="css/roomManage.css">
+    <link rel="stylesheet" href="css/public.css">
 </head>
 <body>
-<div>客房股那里+查询</div>
+<div class="content">
+
+      <div class="line-one">
+        <div>客房类型：<select id="roomType_selset"></select></div>
+        <div>类型编号：<select id="roomId_selset"></select></div>
+        <div>客房状态：<select id="roomStatus_selset"></select></div>
+      </div>
+
+      <div class="line-two">
+        <div>客房人数：<select id="roomPeople_selset"></select></div>
+        <div>客房价格：<select id="roomPrice_selset"></select></div>
+        <div>房间号：<select id="roomNum_selset"></select></div>
+      </div>
+
+     <div class="line-three">
+         <button class="layui-btn ">搜索</button>
+     </div>
+
+    <div class="table-content">
+
+    </div>
+
+</div>
+
 </body>
 </html>

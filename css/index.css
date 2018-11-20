@@ -1,0 +1,105 @@
+.background-image{
+    background: url("../images/hotel-bac5.jpeg") no-repeat 0 0;
+    /*background-color: brown;*/
+    background-size: cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    height:800px;
+    width:100%;
+    position: relative;
+
+}
+.login-box{
+    height:500px;
+    width:700px;
+    position: relative;
+    background: rgba(71, 79, 77, 0.81);
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 120px;
+    /*box-shadow: 10px 20px 10px rgba(71, 79, 77, 0.71);*/
+    text-align: center;
+}
+.login-inputcontent-box{
+    height:220px;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+.title-hotel, .title-hotel-son{
+    padding-top: 15px;
+    font-size: 80px;
+    color: whitesmoke;
+}
+.title-hotel-son{
+    font-size: 20px;
+    padding-top: 0px;
+}
+.login-input{
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline;
+    border: none;
+}
+.login-input-size{
+
+    padding-right: 150px;
+}
+.login-input-size > input{
+
+}
+.login-input-inline{
+    width:700px;
+    height:100px;
+    display: flex;
+}
+.login-input-inline > div{
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    padding-left: 80px;
+}
+.login-input-inline > input{
+     padding-left: 10px;
+ }
+.twoButton{
+    margin: 0 auto;
+}
+#login_botton, #reset_botton{
+    width:170px;
+    height:50px;
+}
+#login_botton{
+    margin-right: 20px;
+    background-color: rgba(31, 34, 34, 0.81);
+    color: whitesmoke;
+    border: 2px rgb(15, 16, 16);
+}
+#reset_botton{
+    margin-left: 20px;
+    border: 2px whitesmoke;
+}
+/*图标*/
+#account_icon{
+    background: url("../images/icon_loginaccount2-32.svg") no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:20px;
+    right:55px;
+}
+#password_icon{
+    background: url("../images/icon_loginpwd-32.svg") no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:20px;
+    right:55px;
+}
