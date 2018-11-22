@@ -1,7 +1,6 @@
 var BASE_URL = "http://www.lywmy.cn:8081"; //远程测试地址;
 var baseAppVerNo = "1.0.0";
-
-
+var username;
 var util = function () {
      var postJSON = function (json, baseUrl, callback) {
         json.head.appVerNo = baseAppVerNo;

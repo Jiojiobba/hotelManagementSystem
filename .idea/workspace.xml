@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4978905-7b4a-48f0-96d4-918d5e2039ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/roomManage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/roomTypeManage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/roomManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/roomTypeManage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chargeSettlement.html" beforeDir="false" afterPath="$PROJECT_DIR$/chargeSettlement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotel-bac.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotel-bac2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotel-bac3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hotel-bac4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/httpRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/httpRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oderRearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/oderRearch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roomManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/roomManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roomTypeManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/roomTypeManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/userBook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userCheckin.html" beforeDir="false" afterPath="$PROJECT_DIR$/userCheckin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRearch.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="3614">
+              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -60,37 +32,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="1352">
+              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
-                <element signature="n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpRequest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/httpRequest.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/public.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="448">
+              <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roomManage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/roomManage.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="roomTypeManage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/roomTypeManage.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -107,6 +73,7 @@
     <findStrings>
       <find>header</find>
       <find>use</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,7 +90,6 @@
       <list>
         <option value="$PROJECT_DIR$/js/public.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/roomTypeManage.css" />
         <option value="$PROJECT_DIR$/css/roomManage.css" />
@@ -142,6 +108,7 @@
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -155,8 +122,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="316" />
-    <option name="width" value="1299" />
+    <option name="x" value="811" />
+    <option name="width" value="1115" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -166,34 +133,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotelManagementSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotelManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotelManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../前端项目/研招办new not me/graduateAdmissionsOfficeBackground" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,7 +187,9 @@
       <workItem from="1542587461655" duration="73000" />
       <workItem from="1542639094291" duration="977000" />
       <workItem from="1542681684625" duration="3878000" />
-      <workItem from="1542695013747" duration="267000" />
+      <workItem from="1542695013747" duration="1629000" />
+      <workItem from="1542698758515" duration="30398000" />
+      <workItem from="1542814678639" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="two">
       <created>1541475295746</created>
@@ -266,20 +212,28 @@
       <option name="project" value="LOCAL" />
       <updated>1541835150632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="客房模块静态完善+部分index.js">
+      <created>1542695409944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542695409944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105198000" />
+    <option name="totallyTimeSpent" value="136975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="0" width="1039" height="840" extended-state="0" />
+    <frame x="650" y="0" width="892" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18163672" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1521739" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50041914" side_tool="true" visible="true" weight="0.34687954" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292397" side_tool="true" visible="true" weight="0.08563135" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49707603" visible="true" weight="0.08563135" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995809" weight="0.34687954" />
@@ -348,28 +302,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="two" />
     <MESSAGE value="完善菜单栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善菜单栏" />
+    <MESSAGE value="客房模块静态完善+部分index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="客房模块静态完善+部分index.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="1" column="49074" lean-forward="true" selection-start-line="1" selection-start-column="49074" selection-end-line="1" selection-end-column="49074" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -529,13 +470,6 @@
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="12997" column="4" selection-start-line="12997" selection-start-column="4" selection-end-line="12997" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layui/css/layui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -613,27 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/httpRequest.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/public.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/roomManage.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/roomTypeManage.js">
@@ -653,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
@@ -667,20 +574,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/httpRequest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <caret line="15918" column="12" selection-start-line="15918" selection-start-column="12" selection-end-line="15918" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/roomManage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3614">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="448">
+          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
         </state>
       </provider>
     </entry>

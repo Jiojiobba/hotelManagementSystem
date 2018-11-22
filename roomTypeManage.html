@@ -10,27 +10,37 @@
 </head>
 <body style="overflow: hidden !important;">
 
-<div style="margin-top:30px; margin-left: 50px;">
+<div style="margin-top:30px; margin-left: 50px; margin-right: 50px; width: 75%; ">
      <div class="add-box">
-         <div class="input-out">类型名称：<input id="typeName_add_input" class="input-in"> </div>
-         <div class="input-out">类型价格：<input id="typePrice_input" class="input-in"></div>
-         <button id="add_button" class="add-button layui-btn">添加</button>
+         <div class="input-out">类型编号：<input id="typeCode_add_input" name="typeCodeAddInput" class="layui-input input-in"> </div>
+         <div class="input-out">类型名称：<input id="typeName_add_input" name="typeNameAddInput" class="layui-input input-in"> </div>
+         <div class="input-out">类型价格：<input id="typePrice_add_input" name="typePriceAddInput" class="layui-input input-in"></div>
+         <button id="add_button" class="add-btn layui-btn">添加</button>
      </div>
-     <div class="delete-box">
-         <div class="input-out">类型选择：<select class="input-in"></select> </div>
-         <button class="layui-btn">删除</button>
-     </div>
+
      <div class="edit-box">
-         <div class="input-out">类型名称：<input id="typeName_edit_input" class="input-in"> </div>
-         <div class="input-out">类型价格：<input id="typePrice_edit_input" class="input-in"></div>
-         <button class="layui-btn">修改</button>
+         <div class="input-out">类型编号：<select id="typeCode_edit_select" name="typeCodeEditSelect" class=" input-in"></select> </div>
+         <div class="input-out">类型名称：<input id="typeName_edit_input" name="typeNameEditInput" class="layui-input input-in edit-input"> </div>
+         <div class="input-out">类型价格：<input id="typePrice_edit_input" name="typePriceEditInput" class="layui-input input-in edit-input"></div>
+         <button class="edit-btn layui-btn">修改</button>
      </div>
+    <div class="delete-box">
+        <div class="input-out layui-input-inline">类型选择：<select id="typeCode_add_select_two" name="typeCodeAddInput" class=" input-in"></select> </div>
+        <div class="input-out">类型名称：<input  class="layui-input input-in"  disabled="disabled"> </div>
+        <div class="input-out">类型价格：<input  class="layui-input input-in"  disabled="disabled"></div>
+        <button class="delete-btn layui-btn">删除</button>
+    </div>
     <!--表格-->
     <div class="table-content">
-
+        <table class="layui-hide" id="test"></table>
     </div>
 
 </div>
-
+<script type="text/javascript"  src="layui/layui.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="layui/layui.all.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script src="js/roomTypeManage.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 </body>
 </html>

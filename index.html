@@ -2,7 +2,6 @@
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <title>小型宾馆管理系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,
       maximum-scale=1">
@@ -11,11 +10,11 @@
     <link rel="stylesheet" href="css/public.css">
 
 </head>
-<!--background: yellowgreen;-->
+
 <body class=" background-image" style="overflow: hidden !important;">
 
 <!--页面内容-->
-   <div class="  ">
+   <div >
 
 <!--登录框-->
     <div class="login-box">
@@ -25,32 +24,90 @@
         <div class="login-inputcontent-box layui-row">
             <div class="login-input-inline">
                 <div>账户名</div>
+
                <input class="login-input" id="login_account" placeholder="请输入账号"
-                      name="username" autocomplete="off" type="txt"autocorrect="off" autocapitalize="off">
+                      name="username" autocomplete="new-password" type="text" lay-verify="required">
                 <use id="account_icon"></use></div>
 
             <div class="login-input-inline ">
                 <div>密码</div>
-              <input class="login-input" name="password" autocomplete="off" type="password"
-                     id="login_password" placeholder="请输入密码" autocorrect="off" autocapitalize="off">
+              <input class="login-input" name="password" autocomplete="new-password" type="password"
+                     id="login_password" placeholder="请输入密码" lay-verify="required">
                 <use id="password_icon"></use></div>
 
-
-
         </div>
+
         <div class="twoButton">
         <button id="login_botton" class="layui-btn layui-btn-radius layui-btn-primary">登录</button>
-        <button id="reset_botton" class="layui-btn layui-btn-radius layui-btn-primary">重置</button>
+        <button id="register_botton" class="layui-btn layui-btn-radius layui-btn-primary">注册</button>
         </div>
 
         </div>
+
+
+
+
 
    </div>
+<!--注册模态框   -->
+<div id="register_motaikuang" class="register-motaikuang" >
+    <div class="register-content layui-row" >
+        <div class="register-title">注册账号</div>
 
+        <div class="register-line ">
+            <div>ID号码</div>
+            <input type="text" id="register_id" placeholder="请输入ID号"
+                   name="registerId" autocomplete="new-password">
+        </div>
+
+        <div class="register-line">
+            <div>用户名</div>
+            <input type="text" id="register_name" placeholder="请输入用户名"
+                   name="registerName" autocomplete="new-password">
+        </div>
+
+        <div class="register-line">
+            <div>密码</div>
+            <input type="password" id="register_password" placeholder="请输入密码"
+                   name="registerPassword" autocomplete="new-password">
+        </div>
+
+        <div class="register-line">
+            <div>生日</div>
+            <input type="text" id="register_birthday" placeholder="请输入生日"
+                   name="registerBirthday" autocomplete="new-password"></div>
+
+        <div class="register-line">
+            <div>年龄</div>
+            <input type="text" id="register_age" placeholder="请输入年龄"
+                   name="registerAge" autocomplete="new-password"></div>
+
+        <div class="register-line">
+            <div>性别</div>
+            <input type="text" id="register_sex" placeholder="请输入性别"
+                   name="registerSex" autocomplete="new-password"></div>
+
+        <div class="register-line">
+            <div>联系方式</div>
+            <input type="text" id="register_phone" placeholder="请输入联系方式"
+                   name="registerPhone" autocomplete="new-password"></div>
+
+        <div class="register-btntwo">
+            <button class="layui-btn layui-btn-radius layui-btn-primary register-btn"
+                    id="register_commit">
+                确认</button>
+            <button class="layui-btn layui-btn-radius layui-btn-primary register-btn"
+                    id="register_cancel">
+                取消</button>
+        </div>
+    </div>
+
+</div>
 <script src="js/jquery.min.js"></script>
-<script src="layui/layui.js"></script>
+<script src="layui/layui.all.js"></script>
 <script src="js/util.js"></script>
 <script src="js/index.js"></script>
 
 </body>
+
 </html>
