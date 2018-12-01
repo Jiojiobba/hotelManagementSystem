@@ -9,30 +9,56 @@
     <link rel="stylesheet" href="css/roomManage.css">
     <link rel="stylesheet" href="css/public.css">
 </head>
-<body>
+<body style="overflow: hidden !important;">
 <div class="content">
 
-      <div class="line-one">
-        <div>客房类型：<select id="roomType_selset"></select></div>
-        <div>类型编号：<select id="roomId_selset"></select></div>
-        <div>客房状态：<select id="roomStatus_selset"></select></div>
-      </div>
+    <div class="line-one">
+        <div class="input-out">类型编号：<select id="roomTypeId_selset"  name="roomTypeIdSelect" class=" input-in" ></select></div>
+        <div class="input-out">房间号码：<input id="roomId_input"  name="roomIdInput" class="layui-input input-in" ></div>
+        <div class="input-out">客房人数：<input id="room_person_input"  name="roomPersonInput" class="layui-input input-in"></div>
+        <div class="input-out">备注：<input id="room_comment"  name="roomComment" class="layui-input input-in" ></div>
+        <button id="room_add" class="layui-btn myButton">增加</button>
+    </div>
 
       <div class="line-two">
-        <div>客房人数：<select id="roomPeople_selset"></select></div>
-        <div>客房价格：<select id="roomPrice_selset"></select></div>
-        <div>房间号：<select id="roomNum_selset"></select></div>
+
       </div>
 
      <div class="line-three">
-         <button class="layui-btn ">搜索</button>
+
      </div>
 
-    <div class="table-content">
 
+    <div class="table-content">
+        <table class="layui-hide" id="test" lay-filter="test-table"></table>
     </div>
 
 </div>
+<script type="text/html"  id="barDemo">
+        <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+<script type="text/javascript"  src="layui/layui.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="layui/layui.all.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script src="js/roomManage.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 
 </body>
+<div class="layer_notice" id="layer_notice_edit">
+    <div class="layui-row edit_box">
+    <div class="input-out-mtk-edit">类型编号：<select id="roomTypeId_edit_select"  name="roomTypeIdEditSelect" class=" input-in" ></select></div>
+    <div class="input-out-mtk-edit">房间号码：<input id="roomId_edit_input" readonly="value" name="roomIdEditInput" class="layui-input input-in" ></div>
+    <div class="input-out-mtk-edit">客房人数：<input id="roomPerson_edit_input"  name="roomPersonEditInput" class="layui-input input-in"></div>
+    <div class="input-out-mtk-edit">入住状态：<input id="roomLive_edit_input"  name="roomLiveEditInput" class="layui-input input-in"></div>
+    <div class="input-out-mtk-edit">预订状态：<input id="roomBook_edit_input"  name="roomBookEditInput" class="layui-input input-in"></div>
+    <div class="input-out-mtk-edit input-out-mtk-edit-command">备注：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="room_edit_comment"
+          name="roomEditComment" class="layui-input input-in" ></div>
+    <div class="input-out-mtk-edit">
+        <button id="room_edit" class="layui-btn myButton">修改</button>
+    </div>
+
+    </div>
+</div>
 </html>

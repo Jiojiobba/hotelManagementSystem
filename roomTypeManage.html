@@ -15,27 +15,28 @@
          <div class="input-out">类型编号：<input id="typeCode_add_input" name="typeCodeAddInput" class="layui-input input-in"> </div>
          <div class="input-out">类型名称：<input id="typeName_add_input" name="typeNameAddInput" class="layui-input input-in"> </div>
          <div class="input-out">类型价格：<input id="typePrice_add_input" name="typePriceAddInput" class="layui-input input-in"></div>
-         <button id="add_button" class="add-btn layui-btn">添加</button>
+         <button id="add_btn" class="add-btn layui-btn">添加</button>
      </div>
 
      <div class="edit-box">
-         <div class="input-out">类型编号：<select id="typeCode_edit_select" name="typeCodeEditSelect" class=" input-in"></select> </div>
+         <div class="input-out">类型编号：<select id="typeCode_edit_select" name="typeCodeEditSelect" class=" input-in" onchange="selectChange()"></select> </div>
          <div class="input-out">类型名称：<input id="typeName_edit_input" name="typeNameEditInput" class="layui-input input-in edit-input"> </div>
          <div class="input-out">类型价格：<input id="typePrice_edit_input" name="typePriceEditInput" class="layui-input input-in edit-input"></div>
-         <button class="edit-btn layui-btn">修改</button>
+         <button id="edit_btn" class="edit-btn layui-btn">修改</button>
      </div>
     <div class="delete-box">
-        <div class="input-out layui-input-inline">类型选择：<select id="typeCode_add_select_two" name="typeCodeAddInput" class=" input-in"></select> </div>
-        <div class="input-out">类型名称：<input  class="layui-input input-in"  disabled="disabled"> </div>
-        <div class="input-out">类型价格：<input  class="layui-input input-in"  disabled="disabled"></div>
-        <button class="delete-btn layui-btn">删除</button>
+        <div class="input-out ">类型选择：<select id="typeCode_delete_select" name="typeCodeDeleteInput" class=" input-in" onchange="selectChange()" ></select> </div>
+        <div class="input-out">类型名称：<input  id="typeName_delete_input" name="typeNameDeleteInput" class="layui-input input-in"  disabled="disabled"> </div>
+        <div class="input-out">类型价格：<input id="typePrice_delete_input" name="typePriceDeleteInput" class="layui-input input-in"  disabled="disabled"></div>
+        <button id="delete_btn" class="delete-btn layui-btn">删除</button>
     </div>
     <!--表格-->
     <div class="table-content">
-        <table class="layui-hide" id="test"></table>
+        <table class="layui-hide" id="test" lay-filter="testtable"></table>
     </div>
 
 </div>
+
 <script type="text/javascript"  src="layui/layui.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="layui/layui.all.js"></script>

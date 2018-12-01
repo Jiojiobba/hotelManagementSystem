@@ -1,3 +1,27 @@
 button{
     background-color: #23262E !important;
 }
+.myButton{
+    height:35px !important;
+    padding: 0 25px !important;
+    border-radius: 20px !important;
+    line-height: 35px !important;
+}
+.input-in{
+    width: 150px;
+    height: 35px;
+    display: inline;
+    border-color: #0f1114;
+}
+.input-in:hover{
+    border-color: rgba(0, 0, 0, 0.86) !important;
+    box-shadow: 0px 0px 4px 1px #2c2c2c69;
+}
+.input-in:active, .input-in:focus{
+    border-color: rgba(0, 0, 0, 0.86) !important;
+}
+.input-out{
+    width: 250px;
+    height:50px;
+    display: inline;
+}

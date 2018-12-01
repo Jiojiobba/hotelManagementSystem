@@ -1,11 +1,20 @@
 .content{
     margin-top:30px;
     margin-left: 50px;
+    margin-right: 30px;
+    width: 75%;
+}
+.input-out{
+    width:345px !important;
+}
+select{
+    margin: 0 !important;
 }
 .line-one, .line-two, .line-three{
     display: flex;
     height: 60px;
     width: 100%;
+    justify-content: space-around;
 }
 select{
     width: 150px;
@@ -13,12 +22,40 @@ select{
     margin: 10px;
     border-radius: 5px;
 }
-.line-three > button{
-
+.line-three {
+    justify-content: space-around;
 }
+
 .table-content{
     width: 100%;
     height: 300px;
     margin-top: 20px;
-    background: wheat;
+}
+.layui-table{
+    color: #333;
+}
+.layer_notice{
+    display: none;
+}
+.edit_box{
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+}
+#room_edit{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 150px;
+}
+.input-out-mtk-edit{
+    width: 300px;
+    height:50px;
+    display: inline;
+    padding-left: 80px;
+}
+.input-out-mtk-edit-command{
+    height: 100px;
+}
+#room_edit_comment{
+    height: 90px;
 }

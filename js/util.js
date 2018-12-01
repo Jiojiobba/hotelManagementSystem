@@ -3,7 +3,7 @@ var baseAppVerNo = "1.0.0";
 var username;
 var util = function () {
      var postJSON = function (json, baseUrl, callback) {
-        json.head.appVerNo = baseAppVerNo;
+          json.head.appVerNo = baseAppVerNo;
         json.head.token = localStorage.token;
         var url = BASE_URL + baseUrl;
         var data = JSON.stringify(json);

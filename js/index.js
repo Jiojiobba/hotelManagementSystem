@@ -1,5 +1,5 @@
 
-var Util =new util();
+let Util =new util();
 
 //管理员登陆
 let PersonnelLogin = {
