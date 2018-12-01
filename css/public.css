@@ -25,3 +25,21 @@ button{
     height:50px;
     display: inline;
 }
+/*类型表格分页*/
+.layui-laypage-em, .layui-laypage-btn{
+    background: #23262E !important;
+    color: whitesmoke !important;
+    height: 28px !important;
+}
+.layui-table{
+    color: #333;
+}
+.layui-table-page .layui-laypage button{
+    color: whitesmoke !important;
+}
+.layui-table-page select:hover, .layui-table-page select:active,
+.layui-table-page select:focus, .layui-table-page select:visited,
+.layui-table-page select:focus-within{
+    border-color: #0f1114 !important;
+    border-width: 1px;
+}

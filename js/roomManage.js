@@ -27,7 +27,7 @@ function roomTypeGetAll(){
             }
         }
         else {
-            alert(ajaxData.head.msg);
+            layer.msg(ajaxData.head.msg);
         }
     })
 };
@@ -135,7 +135,7 @@ function roomInfoGetAll() {
         }
 
         else {
-            console.log(ajaxData.head.msg)
+            layer.msg(ajaxData.head.msg)
         }
         });
 

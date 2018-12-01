@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>客户入住</title>
+    <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
     <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/userCheckin.css">
+
+
 </head>
 <body>
-<div>客户入住</div>
+<div style="margin-top:30px; margin-left: 50px; margin-right: 50px; width: 75%; ">
+
+    <div class="book-box">
+        <div class="input-out">房间号：<input id="room_type" name="RoomNumber" class="layui-input input-in" ></div>
+        <div class="input-out">姓名：<input id="user_name" name="UserName" class="layui-input input-in"></div>
+        <div class="input-out">身份证号：<input id="user_id" name="UserId" class="layui-input input-in"></div>
+        <div class="input-out">入住时间：<input type="text"  placeholder="yyyy-MM-dd"  id="check_time" name="CheckTime" class="layui-input input-in"></div>
+        <div class="input-out">退房时间：<input type="text"  placeholder="yyyy-MM-dd" id="out_time" name="OutTime" class="layui-input input-in"></div>
+
+    </div>
+
+    <div class="book-box">
+        <div style="margin-left: 15%"><button id="add2" class="delete-btn layui-btn ">入住</button></div>
+        <div style="margin-left: 30%"><button id="delete" class="delete-btn layui-btn">退房</button></div>
+
+    </div>
+    <div class="table-content">
+        <table class="layui-hide" id="test"></table>
+    </div>
+</div>
+
+<script type="text/javascript"  src="layui/layui.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="layui/layui.all.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script src="js/userCheckin.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 </body>
 </html>

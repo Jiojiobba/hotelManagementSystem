@@ -59,3 +59,9 @@ select{
 #room_edit_comment{
     height: 90px;
 }
+.edit-btn{
+    background: #23262E;
+}
+.delete-btn{
+    background: #c50d08;
+}

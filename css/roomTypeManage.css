@@ -20,21 +20,3 @@
     border-radius: 20px !important;
     line-height: 35px !important;
 }
-/*类型表格分页*/
-.layui-laypage-em, .layui-laypage-btn{
-    background: #23262E !important;
-    color: whitesmoke;
-    height: 28px;
-}
-.layui-table{
-    color: #333;
-}
-.layui-table-page select:hover, .layui-table-page select:active,
-.layui-table-page select:focus, .layui-table-page select:visited,
-.layui-table-page select:focus-within{
-    border-color: #0f1114 !important;
-    border-width: 1px;
-}
-.edit-input{
-    /*color: rgb(115, 115, 115);*/
-}
